@@ -39,7 +39,7 @@ body{
     }
   }
 .container{
-    margin: 100px auto;
+    margin: 2% auto;
     z-index: 1;
     background-color: #1f2949;
     color: #FFFFFF;
@@ -88,8 +88,8 @@ body{
 }
 .busca .time{
     position:absolute;
-    right: 27%;
-    top: 28%;
+    right: 25%;
+    top: 14%;
     padding: 10px;
     margin: 30px;   
     background-color: rgba(0, 3, 4, 0.406);
@@ -101,14 +101,14 @@ body{
     border-radius: 15px
 }
 .informacao-principal h1 h2{
-    font-size: 40px;
+    font-size: 36px;
 }
 .informacao-principal .temperatura{
-    font-size: 40px;
-    margin: 20px 0;
+    font-size: 38px;
+    margin: 15px 0;
 }
 .informacao-principal .condicao{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 .informacao-secundaria{
