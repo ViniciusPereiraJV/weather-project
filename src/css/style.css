@@ -35,7 +35,7 @@ body{
       transform: scale(1);
     }
     to {
-      transform: scale(1.2); /* Ajuste o valor para a velocidade desejada */
+      transform: scale(1); /* Ajuste o valor para a velocidade desejada */
     }
   }
 .container{
@@ -86,29 +86,35 @@ body{
     width: 35px;
     padding: 5px;
 }
-.busca .time{
-    position:absolute;
-    right: 25%;
-    top: 14%;
+.time{
+    position: relative;
+    width: 180px;
     padding: 10px;
-    margin: 30px;   
-    background-color: rgba(0, 3, 4, 0.406);
-    border-radius: 10px
+    margin: auto;   
+    background-color: rgba(0, 3, 4, 0.281);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
 }
 .informacao-principal{
-    margin: 30px;   
+    margin: 20px;   
     background-color: rgba(0, 3, 4, 0.406);
-    border-radius: 15px
+    border-radius: 15px;
+    
 }
-.informacao-principal h1 h2{
-    font-size: 36px;
+.informacao-principal h1 {
+    font-size: 24px;
+}
+.informacao-principal h4{
+    font-size: 20px;
 }
 .informacao-principal .temperatura{
-    font-size: 38px;
-    margin: 15px 0;
+    font-size: 24px;
+    margin: 10px 0;
 }
 .informacao-principal .condicao{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 .informacao-secundaria{
