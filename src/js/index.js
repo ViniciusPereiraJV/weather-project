@@ -13,6 +13,7 @@ botaoDeBusca.addEventListener("click", async () => {
     console.log(dados);
     preencherDadosNaTela(dados);
     checkTemp(dados.current.temp_c);
+    document.getElementById("input-busca").value = "";
  
 });
 document.getElementById("input-busca").addEventListener("keyup", (event) => {
@@ -28,6 +29,7 @@ document.getElementById("input-busca").addEventListener("keyup", (event) => {
                 if (dados) {
                     preencherDadosNaTela(dados);
                     checkTemp(dados.current.temp_c);
+                    document.getElementById("input-busca").value = "";
                 }
             })
             .catch((error) => {
