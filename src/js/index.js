@@ -27,6 +27,7 @@ document.getElementById("input-busca").addEventListener("keyup", (event) => {
         buscaDadosDaCidade(cidade)
             .then((dados) => {
                 if (dados) {
+                    console.log(dados);
                     preencherDadosNaTela(dados);
                     checkTemp(dados.current.temp_c);
                     document.getElementById("input-busca").value = "";
