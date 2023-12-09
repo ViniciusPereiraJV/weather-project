@@ -86,39 +86,49 @@ body{
     width: 35px;
     padding: 5px;
 }
-.infomacao-principal{
+.busca .time{
+    position:absolute;
+    right: 30%;
+    top: 22%;
+    padding: 10px;
     margin: 30px;   
+    background-color: rgba(0, 3, 4, 0.406);
+    border-radius: 10px
 }
-.infomacao-principal h1 {
-    font-size: 25px;
+.informacao-principal{
+    margin: 30px;   
+    background-color: rgba(0, 3, 4, 0.406);
+    border-radius: 15px
 }
-.infomacao-principal .temperatura{
-    font-size: 68px;
+.informacao-principal h1 h2{
+    font-size: 40px;
+}
+.informacao-principal .temperatura{
+    font-size: 40px;
     margin: 20px 0;
 }
-.infomacao-principal .condicao{
+.informacao-principal .condicao{
     font-size: 20px;
     font-weight: bold;
-    background-color: lightcoral;
 }
-.infomacao-secundaria{
+.informacao-secundaria{
     color: #ffffff;
     padding: 20px 30px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
    
 }
-.infomacao-secundaria .humidade, .velocidade-do-vento{
-    background-color: rgba(0, 3, 4, 0.189);
+.informacao-secundaria .humidade, .velocidade-do-vento{
+    background-color: rgba(0, 3, 4, 0.406);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
     font-weight: bolder;
 }
-.infomacao-secundaria .humidade{
+.informacao-secundaria .humidade{
     border-radius: 10px 10px 0px 0px;
 }
-.infomacao-secundaria .velocidade-do-vento{
+.informacao-secundaria .velocidade-do-vento{
     border-radius:  0px 0px 10px 10px;
 }
